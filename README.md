@@ -1,5 +1,5 @@
-# md2notion_api_version
-Use Notion API to upload .md file to notion.so for typora writing style.
+# md_to_notion 
+使用notion api上传 针对公式进行了特殊优化。建议使用SMMS图床，比较方便。
 
 ## Installation
 
@@ -94,7 +94,7 @@ So far, I only pass test examples for my own notebooks consist of equation, tabl
 ## Reference
 
 This repo cannot build without follow projects:
-
+- [md2notion_api_version](https://github.com/veya2ztn/md2notion_api_version)
 - [notion-sdk-py](https://github.com/ramnes/notion-sdk-py) 
 - [md_img_uploader](https://github.com/nifanle7/md_img_uploader)
 - [python-o365](https://github.com/O365/python-o365)
