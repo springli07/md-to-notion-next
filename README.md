@@ -1,5 +1,5 @@
 # md_to_notion 
-使用notion api上传 针对公式进行了特殊优化。建议使用SMMS图床，比较方便。
+基于 md2notion_api_version 和md2notion 进行了优化。使用notion api上传 针对公式进行了特殊优化。建议使用SMMS图床，比较方便。
 
 ## Installation
 
