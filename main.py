@@ -6,11 +6,11 @@ import os
 def get_parameter():
     parser = argparse.ArgumentParser()
     parser.add_argument("--file_path", '-f',default='test.md',help="input file_path")
-    parser.add_argument("--connection_key", default='secret_mejGsNQDGz6YGLIpOkqzD5BQYJRRvw4njm5kQ42VO2V',type=str, help="the notion connection key")
-    # parser.add_argument("--database_id", default='b692122a72da48ecaa2423883d7c4527',type=str, help="the notion database_id")
+    parser.add_argument("--connection_key", default='***************',type=str, help="the notion connection key")
+    # parser.add_argument("--database_id", default='*************************',type=str, help="the notion database_id")
   
-    parser.add_argument("--database_id", default='f6611e238ad240b5937835edee267566',type=str, help="the notion database_id")
-    parser.add_argument("--smms_token",default='ehi0K74HApwVHj667KliDWfEXQNPIfOs', type=str, help="the smms token")
+    parser.add_argument("--database_id", default='*************************',type=str, help="the notion database_id")
+    parser.add_argument("--smms_token",default='******************************', type=str, help="the smms token")
     parser.add_argument("--start_line", default=0, type=int, help="the start line of the update")
     
     args = parser.parse_args()
